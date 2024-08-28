@@ -11,7 +11,9 @@ function OurService() {
       <img src="\src\assets\images\image3.jpg" alt="" className="image3" />
       <img src="\src\assets\images\Bg.jpg" alt="" className="image4" />
 
-      <h1 className="All-rooms">VIEW ALL ROOMS</h1>
+      <div className="my-btn">
+        <h1 className="btn btn-primary">VIEW ALL ROOMS</h1>
+      </div>
     </div>
   );
 }

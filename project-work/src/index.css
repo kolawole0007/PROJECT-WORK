@@ -97,14 +97,33 @@ margin-bottom: 10px;
 .label{ 
     text-align: center;
 }
-.All-rooms{
+.btn{
     font-size: 20px;
-    text-align: center;
-    margin-top: 25px;
-    border: 2px solid black ;
     cursor: pointer;
+    
+
 }
 
-.Contactus{
+.my-btn{
     text-align: center;
+
+}
+
+.btn-primary{
+  
+}
+
+.cont-us{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.info{
+    margin-left: 5rem;
+    
+    
+}
+
+.informat{
+    margin-bottom: 3rem;
 }
