@@ -1,0 +1,110 @@
+body,html{
+  width: 100%;
+  height: 100vh;
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+}
+    
+.navbar{
+
+    margin: 0%;
+}
+.nav-link{
+    color:black;
+}
+.navbar-brand{
+    color:black;
+}
+
+.navbar-nav{
+  width: 100%;
+    font-size: 15px;
+    position: absolute;
+
+}
+
+.nav-link{
+    margin-left:100px;
+}
+
+.nav-link2 {
+ text-align: end;
+}
+
+.bg-ctn {
+width:90%;
+height:100vh;
+display: flex; 
+align-items: center; 
+justify-content: center; 
+background-image: url("assets\images\Bg.jpg");
+background-size:cover;
+}
+
+.AboutUs{
+    
+    background-color: aliceblue;
+    width:100%;
+    display: flex;
+    
+}
+.About-text{
+    font-size:18px;
+   margin: 5rem;
+  
+}
+
+.abt-image{
+margin:4rem;
+}
+
+.Hotel-rooms{
+display: flex grid;
+margin-left :5rem;
+margin-top: 5rem;
+}
+
+.image1{
+    width:42%;
+    height:42vh;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.image2{
+      width:42%;
+    height:42vh;
+      margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.image3{
+       width:42%;
+    height:42vh;
+        margin-left: 10px;
+        margin-bottom: 10px;
+}
+.image4{
+       width:42%;
+    height:42vh;
+      margin-left: 10px;
+      margin-bottom: 10px;
+}
+
+.label{ 
+    text-align: center;
+}
+.All-rooms{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    border: 2px solid black ;
+    cursor: pointer;
+}
+
+.Contactus{
+    text-align: center;
+}
