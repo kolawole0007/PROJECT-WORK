@@ -12,7 +12,8 @@ function App() {
       <Home />
       <AboutUs />
       <OurService />
-      <ContactUs/>
+      <ContactUs />
+     
     </div>
   );
 }

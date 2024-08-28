@@ -100,7 +100,7 @@ margin-bottom: 10px;
 .btn{
     font-size: 20px;
     cursor: pointer;
-    
+    background-color: brown;
 
 }
 
@@ -109,9 +109,7 @@ margin-bottom: 10px;
 
 }
 
-.btn-primary{
-  
-}
+
 
 .cont-us{
     text-align: center;
@@ -127,3 +125,14 @@ margin-bottom: 10px;
 .informat{
     margin-bottom: 3rem;
 }
+
+.Contactform{
+   display: flex;
+   width: 100%;
+   margin-top: 10px;
+   justify-content: space-between;
+   align-items:start;
+   flex-wrap: wrap;
+   gap:4px;
+}
+
