@@ -1,64 +1,117 @@
 body,html{
   width: 100%;
-  height: 100vh;
-   margin: 0;
+  height:100%;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
-
 }
-    
+
 .navbar{
-
     margin: 0%;
+     background-color:rgb(84, 51, 16);
 }
+
 .nav-link{
-    color:black;
+    color:white;
 }
 .navbar-brand{
-    color:black;
+    color:white;
 }
 
 .navbar-nav{
-  width: 100%;
+   width: 100%;
     font-size: 15px;
-    position: absolute;
-
 }
 
 .nav-link{
-    margin-left:100px;
+    margin-left:7rem;
 }
 
 .nav-link2 {
- text-align: end;
+  text-align: end;
+  margin-left: 9rem;
 }
 
 .bg-ctn {
-width:90%;
-height:100vh;
-display: flex; 
-align-items: center; 
-justify-content: center; 
+    margin:0%;
+    padding: 0%;
+    width:100%;
+    height:100dvh;
+    display: flex; 
+    align-items: center; 
+    justify-content:center; 
 background-image: url("assets\images\Bg.jpg");
 background-size:cover;
+color:
+rgb(96, 63, 38);
+font-family: "Playfair Display", serif;
+font-size: larger;
+}
+
+.luxury{
+    font-size:1.5rem;
 }
 
 .AboutUs{
-    
-    background-color: aliceblue;
+    background-color:rgb(255, 248, 232);
     width:100%;
     display: flex;
-    
+
+}
+.suite{
+    margin-top: 2.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
+     font-family: 'Oswald', sans-serif;
+     line-height: 1.1;
+}
+.welcome-text{
+    color:  #043040;;
+     font-weight:bold;
+ 
+}
+
+.hotel-text{
+    color: #cda274;;
+    font-weight:bold;
+}
+
+.AboutUs{
+   font-family: "Baskervville SC", serif;
+       display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.bt-us{
+      font-family: "Baskervville SC", serif;
+      font-size: 25px;
+      margin-left: 4rem;
+      color:rgb(145, 79, 30) ;
+}
+.westafrica{
+    font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+    line-height: 1.1;
+    color: #043040;
+
+
 }
 .About-text{
     font-size:18px;
-   margin: 5rem;
+   margin-top: 10rem;
+   padding-left: 1rem;
+   font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height:2rem;
   
+    
 }
 
 .abt-image{
-margin:4rem;
+margin-top:6rem;
+ vertical-align: middle;
+
 }
 
 .Hotel-rooms{
@@ -109,11 +162,11 @@ margin-bottom: 10px;
 
 }
 
-
-
 .cont-us{
     text-align: center;
     margin-top: 7rem;
+    position:relative;
+    
 }
 
 .info{
@@ -129,10 +182,14 @@ margin-bottom: 10px;
 .Contactform{
    display: flex;
    width: 100%;
-   margin-top: 10px;
    justify-content: space-between;
    align-items:start;
    flex-wrap: wrap;
    gap:4px;
+   position: absolute;
+  
 }
 
+.contactus{
+background-color: rgb(134, 13, 13);
+}

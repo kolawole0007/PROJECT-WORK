@@ -2,7 +2,7 @@
 
 function Navbar() {
   return (
-    <div>
+    <div className="NavB">
       <h1>
         <nav className="navbar navbar-expand-lg">
           <a className="navbar-brand" href="#">
@@ -46,7 +46,7 @@ function Navbar() {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link 2" href="#">
+                <a className="nav-link2" href="#">
                   Book Now
                 </a>
               </li>

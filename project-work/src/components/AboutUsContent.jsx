@@ -4,8 +4,8 @@ function AboutUsContent() {
   return (
     <div>
       <h1 className="About-text">
-        <h1>ABOUT US</h1>
-        <h2>The Most Preferred Hotel in West Africa</h2>
+        <h1 className="bt-us">ABOUT US</h1>
+        <h3 className="westafrica">The Most Preferred Hotel in West Africa</h3>
         
         Shear Hotels & Suites is the most preferred hotel in West Africa, and it
         is all about the right mix! Located in the heart of Victoria Island, we

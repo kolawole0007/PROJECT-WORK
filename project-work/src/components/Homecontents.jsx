@@ -3,12 +3,14 @@
 function Home() {
   return (
     <div>
-      <p >EXPERIENCE LUXURY AND COMFORT</p>
+      <div>
+        <p className="luxury">EXPERIENCE LUXURY AND COMFORT</p>
+      </div>
       <h1>THE SHEAR ROOMS </h1>
-      <p>
+      <h4>
         Experience elegant Rooms ,savor culinary delights,
         <br /> and lets our hospitality embrace you.
-      </p>
+      </h4>
     </div>
   );
 }

@@ -2,7 +2,7 @@
 
 function ContactUs() {
   return (
-    <div>
+    <div className="contactus">
       <h1 className="cont-us">CONTACT US</h1>
       <div>
         <div className="info">
