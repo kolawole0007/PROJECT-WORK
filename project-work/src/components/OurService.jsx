@@ -12,7 +12,7 @@ function OurService() {
       <img src="\src\assets\images\Bg.jpg" alt="" className="image4" />
 
       <div className="my-btn">
-        <h1 className="btn btn-primary">VIEW ALL ROOMS</h1>
+        <button className="view-room">VIEW ALL ROOMS</button>
       </div>
     </div>
   );

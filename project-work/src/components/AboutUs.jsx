@@ -10,7 +10,7 @@ function AboutUs () {
       </h2>
 
       <div className="abt-image">
-        <img src="/src/assets/images/image1.jpg" alt="aboutus img" />
+        <img src="src\assets\images\calabash-bar.jpg" alt="aboutus img" />
       </div>
       <AboutUsContent />
     </div>
