@@ -26,16 +26,73 @@ function ContactUs() {
             banquet@shearhotels.com
           </p>
         </div>
+        <p className="subheading">
+          If you have any <br /> questions <br /> don't hesitate to <br /> contact us.
+        </p>
       </div>
       <div className="Contactform">
-        <input type="text" name="name" placeholder="Your Name*" className="text"/>
-        <input type="email" name="email" placeholder="Email*" className="email"/>
-        <input type="tel" name="number" placeholder="Phone Number*" className="tel"/>
-        <input type="text" name="city" placeholder="City*" className="city"/>
-        <textarea placeholder="Your Message" />
+        <p className="section-contacts-title">Get in touch</p>
+        <div className="alert" id="form-message" role="alert"></div>
+
+        <form
+          className="contacts__form"
+          method="post"
+          action="contact-process.php"
+        >
+          <div className="form-group">
+            <label className="sr-only">Email address</label>
+            <input
+              type="email"
+              name="email"
+              className="form-control"
+              id="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <span className="help-block"></span>
+          </div>
+
+          <div className="form-group">
+            <label className="sr-only">Name</label>
+            <input
+              type="text"
+              name="name"
+              className="form-control"
+              id="name"
+              placeholder="Enter your name"
+              required
+            ></input>
+            <span className="help-block"></span>
+          </div>
+
+          <div className="form-group">
+            <label className="sr-only">Message</label>
+            <textarea
+              name="message"
+              className="form-control"
+              id="message"
+              rows="6"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+            <span className="help-block"></span>
+          </div>
+
+          <div className="form-group">
+            <small className="text-muted">* All fields are mandatory.</small>
+          </div>
+          <button type="submit" className="btn btn-default">
+            Send Message
+          </button>
+          <div className="col-sm-12 ">
+            <span className="output_message"></span>
+          </div>
+        </form>
       </div>
     </div>
   );
 }
+
+
 
 export default ContactUs
